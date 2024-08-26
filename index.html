@@ -1,0 +1,40 @@
+<html>
+    <head><title>Form 1 Assignment 3</title></head>
+    <body bgcolor="#ccff66">
+        <center><h1 style="color:red; font-family: 'Times New Roman', Times, serif;">Personal Details</h1><br>
+        <form name="f1">
+            <label>Name:<input type="text"></label><br><br>
+            <label>Password:<input type="password"></label><br><br>
+            <label>Email-id:<input type="email"></label><br><br>
+            Gender:<label><input type="radio" name="gender" value="male">Male</label>
+                   <label><input type="radio" name="gender" value="female">Female</label><br><br>
+            Contact No.:<input type="tel" maxlength="10"><br>    
+            <h1 style="color:red; font-family: 'Times New Roman', Times, serif;">Educational Qualification</h1><br>   
+            <label>Degree:
+                <select name="degree" >
+                    <option value="" selected disabled hidden>--Select Group--</option>
+                    <option name="btech">BTech</option>
+                    <option name="mtech">MTech</option>
+                </select>
+            </label><br><br>
+            <label>Engineering:
+                <select name="engineering" >
+                    <option value="" selected disabled hidden>--Select Group--</option>
+                    <option name="a">Helicopter Engineering</option>
+                    <option name="b">Cup Enginnering</option>
+                    <option name="c">Bottle Engineering</option>
+                    <option name="d">Guitar Engineering</option>
+                    <option name="e">Card Engineering</option>
+                </select>
+            </label><br><br>
+            Hobbies:<label><input type="checkbox" name="alpha" value="male">Playing Chess</label>
+                    <label><input type="checkbox" name="beta" value="female">Reading Books</label><br><br>
+            <h1 style="color:red; font-family: 'Times New Roman', Times, serif;">Address</h1><br>
+            <label><input type="text" style="width: 200px; height: 200px;"></label><br><br>
+            <label>Attach Resume: <input type="file"></input> </label><br><br>
+            
+                <input type="image" src="submit.png" alt="Submit" width="110" height="30">
+            </center>
+        </form>
+    </body>
+</html>
